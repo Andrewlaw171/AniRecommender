@@ -13,6 +13,14 @@
     height: 1.7em;
     width: 80%;
     font-size: 35px;
+    padding: 10px;
+  }
+
+#searchBar {
+    overflow: hidden;
+    height: 2em;
+    width: 80%;
+    font-size: 40px;
     vertical-align: middle;
 }
 
