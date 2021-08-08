@@ -6,13 +6,21 @@ import './SearchBar.css';
 class SearchBar extends React.Component{
     render() {
         return (
-            <div id="searchBarDiv">
-                <form id = "searchBarForm" action="/" method="get">
-                    <label>
-                        <input placeholder="Username" id="searchBar" type="text" name="username" />
-                    </label>
-                    <input id="submitButton" type="submit" value="Submit" />
-                </form>
+            <div id="mainDiv">
+                <ul id="navbar">
+                    <li><a href="default.asp">Home</a></li>
+                    <li><a href="news.asp">News</a></li>
+                    <li><a href="contact.asp">Contact</a></li>
+                    <li><a href="about.asp">About</a></li>
+                </ul>
+                <div id="searchBarDiv">
+                    <form id = "searchBarForm" action="/" method="get">
+                        <label>
+                            <input placeholder="Username" id="searchBar" type="text" name="username" />
+                        </label>
+                        <input id="submitButton" type="submit" value="Submit" />
+                    </form>
+                </div>
             </div>
         )
     }
