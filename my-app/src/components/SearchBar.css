@@ -1,8 +1,18 @@
 #searchBarDiv {
     margin: auto;
     width: 50%;
-    border: 3px solid #8a8a8a;
-    background-color: #ebebeb;
+    padding: 10px;
+    margin-top: 15%;
+  }
+
+#searchBar {
+    border: none;
+    border-radius: 25px;
+    background-color: #D4F1F4;
+    overflow: hidden;
+    height: 1.7em;
+    width: 80%;
+    font-size: 35px;
     padding: 10px;
   }
 
@@ -15,9 +25,13 @@
 }
 
 #submitButton {
+    border: none;
+    border-radius: 25px;
+    background-color: #75E6DA;
     vertical-align: middle;
     margin-left: 0.5%;
-    height: 6.5em;
+    height: 3em;
     width: 18%;
+    font-size: 20px;
     font-weight: bold;
 }
