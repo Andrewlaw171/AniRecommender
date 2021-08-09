@@ -7,12 +7,15 @@ class SearchBar extends React.Component{
     render() {
         return (
             <div id="mainDiv">
-                <ul id="navbar">
-                    <li><a href="default.asp">Home</a></li>
-                    <li><a href="news.asp">News</a></li>
-                    <li><a href="contact.asp">Contact</a></li>
-                    <li><a href="about.asp">About</a></li>
-                </ul>
+                <div id="navbarContainer">
+                    <ul id="navbar">
+                        <li><a href="default.asp">Home</a></li>
+                        <li><a href="news.asp">News</a></li>
+                        <li><a href="contact.asp">Contact</a></li>
+                        <li><a href="about.asp">About</a></li>
+                    </ul>
+                </div>
+                
                 <div id="searchBarDiv">
                     <form id = "searchBarForm" action="/" method="get">
                         <label>

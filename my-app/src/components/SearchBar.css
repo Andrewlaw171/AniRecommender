@@ -45,7 +45,7 @@
   font-weight: bold;
 }
 
-#navbar {
+#navbarContainer{
   background-color: #75E6DA;
   height: 5%;
   width: 100%;
@@ -54,12 +54,17 @@
   margin: 0;
   padding: 0;
   padding-top: 4%;
+}
 
+#navbar {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #navbar li {
   display: inline;
   float: left;
+  margin-left: 5%;
 }
 
 #navbar li a {
