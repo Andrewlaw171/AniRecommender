@@ -1,8 +1,17 @@
+#mainDiv {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: -4%;
+  margin-bottom: 0;
+  height: 100em;
+  background-color: #189AB4;
+}
+
 #searchBarDiv {
     margin: auto;
     width: 50%;
     padding: 10px;
-    margin-top: 15%;
+    padding-top: 15%;
   }
 
 #searchBar {
@@ -25,13 +34,48 @@
 }
 
 #submitButton {
-    border: none;
-    border-radius: 25px;
-    background-color: #75E6DA;
-    vertical-align: middle;
-    margin-left: 0.5%;
-    height: 3em;
-    width: 18%;
-    font-size: 20px;
-    font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  background-color: #75E6DA;
+  vertical-align: middle;
+  margin-left: 0.5%;
+  height: 3em;
+  width: 15%;
+  font-size: 20px;
+  font-weight: bold;
 }
+
+#navbarContainer{
+  background-color: #75E6DA;
+  height: 5%;
+  width: 100%;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 4%;
+}
+
+#navbar {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#navbar li {
+  display: inline;
+  float: left;
+  margin-left: 5%;
+}
+
+#navbar li a {
+  display: block;
+  padding: 8px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
